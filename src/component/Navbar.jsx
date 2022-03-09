@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Carrito from './Carrito';
 
 const navbar = () => {
   return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -20,8 +21,12 @@ const navbar = () => {
                         <li className="nav-item">
                             <Link className="nav-link" to='/Promociones'>Promociones</Link>
                         </li>
-                    
+                        <li className="nav-item">
+                            <Link className="nav-link" to='/Carrito'><Carrito/></Link>
+
+                        </li>
                     </ul>
+
                 </div>
             </div>
         </nav>

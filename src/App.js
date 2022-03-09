@@ -3,6 +3,7 @@ import {
   BrowserRouter as Router,
   
 } from 'react-router-dom'
+import ItemListContainer from "./component/itemsContet/ItemListContainer";
 import Navbar from './component/Navbar'
 //import Tendencias from './component/paginas/Tendencias'
 //import Promociones from './component/paginas/Promociones'
@@ -15,8 +16,8 @@ function App() {
      
      <Router>
        <Navbar/>
-         <h1 className="mx-auto">Moda</h1>
      </Router>
+     <ItemListContainer persona="Hola Laura!"/>
     </div>
   );
 }
