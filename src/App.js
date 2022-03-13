@@ -5,12 +5,9 @@ import {
 } from 'react-router-dom'
 import ItemListContainer from "./component/itemsContet/ItemListContainer";
 import Navbar from './component/Navbar'
-//import Tendencias from './component/paginas/Tendencias'
-//import Promociones from './component/paginas/Promociones'
-//import Inicio from './component/paginas/Inicio'
+
+
 function App() {
-
-
   return (
     <div className="App">
      
@@ -18,6 +15,8 @@ function App() {
        <Navbar/>
      </Router>
      <ItemListContainer persona="Hola Laura!"/>
+     
+
     </div>
   );
 }

@@ -1,9 +1,12 @@
 import React from 'react'
+import ItemList from './ItemList'
 
 const ItemListContainer = ({persona}) => {
   return (
-    <div>
-        <h2>{persona}</h2> 
+    <div className='divContainer'> 
+       
+       <h2>{persona}</h2>
+       <ItemList/>
     </div>
   )
 }
